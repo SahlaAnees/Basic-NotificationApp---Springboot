@@ -1,0 +1,20 @@
+# Ignore target directory (generated during Maven/Gradle build)
+/target/
+
+# Ignore IDE files
+.idea/
+*.iml
+
+# Ignore build artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Maven build files
+mvnw
+mvnw.cmd
+.mvn/
+
+# Ignore application secrets
+config.properties
